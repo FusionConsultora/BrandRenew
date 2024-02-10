@@ -1,0 +1,36 @@
+.hoverUp:hover svg {
+    transform: translateY(-3px);
+    transition: ease-in-out 0.2s;
+  }
+
+  .shapeBottom {
+    position: absolute;
+    bottom: 18rem;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.shapeBottom svg {
+  position: relative;
+  display: block;
+  width: calc(300% + 1.3px);
+  height: 500px;
+}
+
+.shapeBottom .shapeFill {
+    fill: #38B6FF;
+}
+
+.boxBottom{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  background-color: #38B6FF;
+  height: 200px;
+}
