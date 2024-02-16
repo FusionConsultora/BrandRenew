@@ -1,6 +1,30 @@
+import { useRef } from 'react';
 import { BsCheck } from 'react-icons/bs';
+import emailjs from '@emailjs/browser';
+import toast, { Toaster } from 'react-hot-toast';
 
 const ContactUs = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_wf0bwlb', 'template_nib962h', form.current, {
+        publicKey: 'Mhs4wgvXYzFJm_1c8',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          e.target.reset()
+          toast.success('Se ha enviado el formulario');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
   return (
     <section
       className='flex flex-col justify-center items-center mb-14'
@@ -24,43 +48,42 @@ const ContactUs = () => {
       <div className='w-11/12 mx-auto lg:w-1/2 mb-12'>
         <form
           className='flex flex-col gap-4 rounded-3xl'
-          action='https://formsubmit.co/62632ee70858528561d179839d66be19'
-          method='POST'
+          ref={form}
+          onSubmit={sendEmail}
         >
           <div className='flex flex-col lg:flex-row lg:justify-between gap-4 lg:gap-0'>
             <input
               type='text'
-              name='Name'
+              name='nombre'
               placeholder='Nombre'
               required
               className='rounded-md bg-white text-gray-600 font-normal p-2 w-full lg:w-[48%] border border-violet-300 outline-violet-400'
             />
             <input
               type='text'
-              name='Empresa'
+              name='empresa'
               placeholder='Empresa (opcional)'
-              required
-              className='rounded-md bg-white text-gray-600 font-normal p-2 w-full lg:w-[48%] border border-violet-300 outline-violet-400' 
+              className='rounded-md bg-white text-gray-600 font-normal p-2 w-full lg:w-[48%] border border-violet-300 outline-violet-400'
             />
           </div>
           <div className='flex flex-col lg:flex-row lg:justify-between gap-4 lg:gap-0'>
             <input
               type='email'
-              name='Email'
+              name='email'
               placeholder='E-mail'
               required
               className='rounded-md bg-white text-gray-600 font-normal p-2 w-full lg:w-[48%] border border-violet-300 outline-violet-400'
             />
             <input
               type='number'
-              name='Telefono'
+              name='telefono'
               placeholder='Teléfono'
               required
-              className='rounded-md bg-white text-gray-600 font-normal p-2 w-full lg:w-[48%] border border-violet-300 outline-violet-400' 
+              className='rounded-md bg-white text-gray-600 font-normal p-2 w-full lg:w-[48%] border border-violet-300 outline-violet-400'
             />
           </div>
           <textarea
-            name='Mensaje'
+            name='mensaje'
             placeholder='Mensaje'
             required
             className='rounded-md bg-white text-gray-600 font-normal p-2 h-32 border border-violet-300 outline-violet-400'
@@ -73,6 +96,8 @@ const ContactUs = () => {
           </button>
         </form>
       </div>
+
+      <Toaster />
     </section>
   )
 }
