@@ -13,7 +13,7 @@ const Nosotros = () => {
       <div className="mb-20 mt-28 grid grid-cols-1 md:grid-cols-10">
 
         <div className="h-[40rem] bg-black md:col-span-6 lg:h-[45rem]">
-          <div className="ml-8 mt-28 lg:ml-60 lg:mt-40 xl:ml-96 xl:mt-56">
+          <div className="ml-8 mt-28 lg:ml-60 lg:mt-40 xl:ml-72 xl:mt-56">
             <span className="text-base font-medium text-[#A800d0]">
               POR QUE BRAND RENEW?
             </span>
@@ -48,7 +48,7 @@ const Nosotros = () => {
 
               <SwiperSlide >
                 <div className="w-4/5 m-auto" >
-                  <p className="mt-6 text-md font-normal leading-snug text-black w-[90%] md:text-base lg:w-[80%] lg:text-base xl:text-xl lg:font-medium m-auto">
+                  <p className="mt-6 text-md font-normal leading-snug text-black w-[90%] md:text-base lg:w-[80%] lg:text-base xl:text-lg lg:font-medium m-auto">
                     Contraté el servicio de diseño web y marketing digital para
                     &quot;Bazar Creativo&quot; y los resultados fueron excepcionales.
                     El aumento en tráfico y ventas fue notable desde el inicio,
@@ -64,7 +64,7 @@ const Nosotros = () => {
 
               <SwiperSlide >
                 <div className="w-4/5 m-auto" >
-                  <p className="mt-6 text-md font-normal leading-snug text-black w-[90%] md:text-base lg:w-[80%] lg:text-base xl:text-xl lg:font-medium m-auto">
+                  <p className="mt-6 text-md font-normal leading-snug text-black w-[90%] md:text-base lg:w-[80%] lg:text-base xl:text-lg lg:font-medium m-auto">
                     Decidí apostar por mejorar mi sitio web y estrategia de marketing digital con Brand Renew, y no podría estar más satisfecho. La transformación de mi tienda online fue impresionante, aumentando no solo las visitas sino también las conversiones. Su equipo demostró una comprensión profunda de mis necesidades y superó mis expectativas.
                   </p>
                   <p className="mt-12 text-xl font-medium">Julian Suar</p>
@@ -75,7 +75,7 @@ const Nosotros = () => {
 
               <SwiperSlide >
                 <div className="w-4/5 m-auto" >
-                  <p className="mt-6 text-md font-normal leading-snug text-black w-[90%] md:text-base lg:w-[80%] lg:text-base xl:text-xl lg:font-medium m-auto">
+                  <p className="mt-6 text-md font-normal leading-snug text-black w-[90%] md:text-base lg:w-[80%] lg:text-base xl:text-lg lg:font-medium m-auto">
                     La experiencia ha sido revolucionaria para nuestro negocio. Su enfoque personalizado para el diseño de nuestra página de aterrizaje y la estrategia de marketing digital ha elevado nuestra marca a nuevos horizontes. Observamos un incremento significativo en la interacción del cliente. Altamente recomendado para quienes buscan crecer en el ámbito digital.
                   </p>
                   <p className="mt-12 text-xl font-medium">Gaspar Liam</p>
@@ -86,7 +86,7 @@ const Nosotros = () => {
 
               <SwiperSlide >
                 <div className="w-4/5 m-auto" >
-                  <p className="mt-6 text-md font-normal leading-snug text-black w-[90%] md:text-base lg:w-[80%] lg:text-base xl:text-xl lg:font-medium m-auto">
+                  <p className="mt-6 text-md font-normal leading-snug text-black w-[90%] md:text-base lg:w-[80%] lg:text-base xl:text-lg lg:font-medium m-auto">
                     Desde el rediseño de nuestro sitio web hasta la implementación de tácticas de marketing digital de vanguardia, su equipo ha demostrado ser un socio invaluable. Hemos visto un aumento exponencial en el tráfico web y una mejora tangible en la tasa de conversión. Su enfoque orientado a resultados y atención al detalle nos ha impresionado profundamente.
                   </p>
                   <p className="mt-12 text-xl font-medium">Vicente Muñoz</p>
@@ -97,8 +97,8 @@ const Nosotros = () => {
 
               <SwiperSlide >
                 <div className="w-4/5 m-auto" >
-                  <p className="mt-6 text-md font-normal leading-snug text-black w-[90%] md:text-base lg:w-[80%] lg:text-base xl:text-xl lg:font-medium m-auto">
-                    Desde que contratamos los servicios para el desarrollo de nuestro ecommerce y estrategias de marketing digital, hemos experimentado un crecimiento excepcional. Su habilidad para entender y ejecutar exactamente lo que nuestra marca necesitaba ha sido impresionante. La comunicación y el soporte técnico han sido excelentes, haciendo de este proceso una experiencia fluida y gratificante.
+                  <p className="mt-6 text-md font-normal leading-snug text-black w-[90%] md:text-base lg:w-[80%] lg:text-base xl:text-lg lg:font-medium m-auto">
+                    Desde que contratamos los servicios para el desarrollo de nuestro ecommerce y estrategias de marketing digital, hemos experimentado un crecimiento excepcional. Su habilidad para entender y ejecutar exactamente lo que nuestra marca necesitaba ha sido impresionante. La comunicación y el soporte técnico han sido excelentes.
                   </p>
                   <p className="mt-12 text-xl font-medium">Emiliano Contreras</p>
                   <span>Abril, 2023</span>
@@ -108,7 +108,7 @@ const Nosotros = () => {
 
               <SwiperSlide >
                 <div className="w-4/5 m-auto" >
-                  <p className="mt-6 text-md font-normal leading-snug text-black w-[90%] md:text-base lg:w-[80%] lg:text-base xl:text-xl lg:font-medium m-auto">
+                  <p className="mt-6 text-md font-normal leading-snug text-black w-[90%] md:text-base lg:w-[80%] lg:text-base xl:text-lg lg:font-medium m-auto">
                     Elegir a Brand para potenciar nuestro sitio web y estrategia de marketing online fue la mejor decisión que pudimos haber tomado. La mejora en la visibilidad online y el aumento de ventas han sido notorios desde el primer mes. Su equipo no solo es creativo y proactivo, sino también increíblemente atento y dedicado a brindar resultados.
                   </p>
                   <p className="mt-12 text-xl font-medium">Oliver Silva</p>
