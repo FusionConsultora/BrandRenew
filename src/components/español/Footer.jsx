@@ -12,7 +12,7 @@ const Footer = () => {
                 <ul className="[&>li]:font-medium text-white">
                     <li className='flex flex-row items-center text-sm md:text-base'> <MdOutlineMailOutline />&nbsp; brandrenew23@gmail.com</li>
                     <li className='flex flex-row items-center text-sm md:text-base'> <BiSolidMap />&nbsp; Barcelona, España</li>
-                    <li className='flex flex-row items-center text-sm md:text-base'> <BsFillTelephoneFill />&nbsp; +34 </li>
+                    <li className='flex flex-row items-center text-sm md:text-base'> <BsFillTelephoneFill />&nbsp; +34 632637792</li>
                     <li>
                         <a href='https://www.tiktok.com/@brandrenew?lang=es' className='flex flex-row items-center text-sm md:text-base'>
                             <BsTiktok />&nbsp; @BrandRenew
