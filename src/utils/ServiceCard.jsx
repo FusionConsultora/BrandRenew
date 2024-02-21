@@ -71,12 +71,12 @@ const ServiceCard = ({ image, title, description, modalTitle, modalOptions }) =>
                         </span>
                     </div>
                     <div className='flex flex-col mt-12 pb-6 text-center'>
-                        <h3 className='mb-4 text-3xl font-black text-indigo-600'>{modalTitle}</h3>
+                        <h3 className='mb-12 text-3xl font-semibold font-poppins text-blue-700'>{modalTitle}</h3>
                         <div className="flex flex-col gap-3 text-left text-md text-zinc-800 font-normal mb-4 w-full ">
                             {
                                 // eslint-disable-next-line react/prop-types
                                 modalOptions && modalOptions.map((option, index) => (
-                                    <span key={index}>
+                                    <span className="text-gray-600 font-poppins" key={index}>
                                         {option}
                                     </span>
                                 ))

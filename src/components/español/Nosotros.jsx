@@ -49,14 +49,9 @@ const Nosotros = () => {
               <SwiperSlide >
                 <div className="w-4/5 m-auto" >
                   <p className="mt-6 text-md font-normal leading-snug text-black w-[90%] md:text-base lg:w-[80%] lg:text-base xl:text-lg lg:font-medium m-auto">
-                    Contraté el servicio de diseño web y marketing digital para
-                    &quot;Bazar Creativo&quot; y los resultados fueron excepcionales.
-                    El aumento en tráfico y ventas fue notable desde el inicio,
-                    gracias a su creatividad y soporte dedicado. Recomiendo
-                    ampliamente este servicio para impulsar la presencia en línea de
-                    cualquier negocio.
+                    He contratado el servicio de diseño web y marketing digital para &quot;Bazar Creativo&quot; y los resultados han sido excepcionales. El incremento en tráfico y ventas ha sido notable desde el principio, gracias a su creatividad y soporte dedicado. Recomiendo encarecidamente este servicio para impulsar la presencia en línea de cualquier negocio.
                   </p>
-                  <p className="mt-12 text-xl md:text-lg font-medium">Ernesto Gomez</p>
+                  <p className="mt-12 text-xl md:text-lg font-medium">Antonio García </p>
                   <span>Enero, 2024</span>
 
                 </div>
@@ -65,9 +60,9 @@ const Nosotros = () => {
               <SwiperSlide >
                 <div className="w-4/5 m-auto" >
                   <p className="mt-6 text-md font-normal leading-snug text-black w-[90%] md:text-base lg:w-[80%] lg:text-base xl:text-lg lg:font-medium m-auto">
-                    Decidí apostar por mejorar mi sitio web y estrategia de marketing digital con Brand Renew, y no podría estar más satisfecho. La transformación de mi tienda online fue impresionante, aumentando no solo las visitas sino también las conversiones. Su equipo demostró una comprensión profunda de mis necesidades y superó mis expectativas.
+                    Decidí apostar por mejorar mi sitio web y estrategia de marketing digital con Brand Renew, y no podría estar más satisfecho. La transformación de mi tienda online fue impresionante, aumentando no solo las visitas sino también las conversiones. Su equipo demostró una comprensión profunda de mis necesidades y superó mis expectativas con creces.
                   </p>
-                  <p className="mt-12 text-xl font-medium">Julian Suar</p>
+                  <p className="mt-12 text-xl font-medium">Benicio Sánchez</p>
                   <span>Julio, 2023</span>
 
                 </div>
@@ -76,9 +71,9 @@ const Nosotros = () => {
               <SwiperSlide >
                 <div className="w-4/5 m-auto" >
                   <p className="mt-6 text-md font-normal leading-snug text-black w-[90%] md:text-base lg:w-[80%] lg:text-base xl:text-lg lg:font-medium m-auto">
-                    La experiencia ha sido revolucionaria para nuestro negocio. Su enfoque personalizado para el diseño de nuestra página de aterrizaje y la estrategia de marketing digital ha elevado nuestra marca a nuevos horizontes. Observamos un incremento significativo en la interacción del cliente. Altamente recomendado para quienes buscan crecer en el ámbito digital.
+                    La experiencia ha sido revolucionaria para nuestro negocio. Su enfoque personalizado para el diseño de nuestra página de inicio y la estrategia de marketing digital ha llevado nuestra marca a nuevos horizontes. Hemos observado un incremento significativo en la interacción del cliente. Muy recomendado para aquellos que buscan crecer en el ámbito digital.
                   </p>
-                  <p className="mt-12 text-xl font-medium">Gaspar Liam</p>
+                  <p className="mt-12 text-xl font-medium">Damian Morales</p>
                   <span>Diciembre, 2023</span>
 
                 </div>
@@ -89,7 +84,7 @@ const Nosotros = () => {
                   <p className="mt-6 text-md font-normal leading-snug text-black w-[90%] md:text-base lg:w-[80%] lg:text-base xl:text-lg lg:font-medium m-auto">
                     Desde el rediseño de nuestro sitio web hasta la implementación de tácticas de marketing digital de vanguardia, su equipo ha demostrado ser un socio invaluable. Hemos visto un aumento exponencial en el tráfico web y una mejora tangible en la tasa de conversión. Su enfoque orientado a resultados y atención al detalle nos ha impresionado profundamente.
                   </p>
-                  <p className="mt-12 text-xl font-medium">Vicente Muñoz</p>
+                  <p className="mt-12 text-xl font-medium">Emiliano Flores</p>
                   <span>Septiembre, 2023</span>
 
                 </div>
@@ -100,7 +95,7 @@ const Nosotros = () => {
                   <p className="mt-6 text-md font-normal leading-snug text-black w-[90%] md:text-base lg:w-[80%] lg:text-base xl:text-lg lg:font-medium m-auto">
                     Desde que contratamos los servicios para el desarrollo de nuestro ecommerce y estrategias de marketing digital, hemos experimentado un crecimiento excepcional. Su habilidad para entender y ejecutar exactamente lo que nuestra marca necesitaba ha sido impresionante. La comunicación y el soporte técnico han sido excelentes.
                   </p>
-                  <p className="mt-12 text-xl font-medium">Emiliano Contreras</p>
+                  <p className="mt-12 text-xl font-medium">David Martínez</p>
                   <span>Abril, 2023</span>
 
                 </div>
@@ -111,7 +106,7 @@ const Nosotros = () => {
                   <p className="mt-6 text-md font-normal leading-snug text-black w-[90%] md:text-base lg:w-[80%] lg:text-base xl:text-lg lg:font-medium m-auto">
                     Elegir a Brand para potenciar nuestro sitio web y estrategia de marketing online fue la mejor decisión que pudimos haber tomado. La mejora en la visibilidad online y el aumento de ventas han sido notorios desde el primer mes. Su equipo no solo es creativo y proactivo, sino también increíblemente atento y dedicado a brindar resultados.
                   </p>
-                  <p className="mt-12 text-xl font-medium">Oliver Silva</p>
+                  <p className="mt-12 text-xl font-medium">Manuel López</p>
                   <span>Febrero, 2024</span>
 
                 </div>
